@@ -1,7 +1,5 @@
-# Excel-Sales-Dashboard
-Interactive Sales Dashboard created using Microsoft Excel
 # Reliance_Trends_Analytics_Sales Dashboard
-
+Interactive Sales Dashboard created using Microsoft Excel
 ## Project Overview
 
 This project is an interactive Sales Dashboard developed using Microsoft Excel.
