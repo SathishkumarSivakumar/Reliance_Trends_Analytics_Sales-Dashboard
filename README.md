@@ -1,6 +1,6 @@
 # Excel-Sales-Dashboard
 Interactive Sales Dashboard created using Microsoft Excel
-# Excel Sales Dashboard
+# Reliance_Trends_Analytics_Sales Dashboard
 
 ## Project Overview
 
@@ -52,12 +52,12 @@ profit and other business metrics using interactive Excel features.
 - NOW
 
 ## Dashboard Preview
+<img width="1918" height="1017" alt="image" src="https://github.com/user-attachments/assets/cb736529-cdd9-43b9-9957-5db789926b81" />
 
-![Excel Sales Dashboard](Dashboard_Screenshot/dashboard.png)
+
 
 ## Project File
 
 The complete Excel dashboard is available in this repository.
 
-Open `Excel_Sales_Dashboard.xlsx` in Microsoft Excel to interact with
-the dashboard, slicers and form controls.
+
