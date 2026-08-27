@@ -1,16 +1,3 @@
-
-
-## Dashboard Preview
-<img width="1918" height="1017" alt="image" src="https://github.com/user-attachments/assets/cb736529-cdd9-43b9-9957-5db789926b81" />
-
-
-
-## Project File
-
-The complete Excel dashboard is available in this repository.
-
-
-
 <div align="center">
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1e1b4b,50:7e22ce,100:a855f7&height=200&section=header&text=Reliance%20Trends%20Analytics&fontSize=44&fontColor=ffffff&fontAlign=50&fontAlignY=36&desc=Excel%20Sales%20%C2%B7%20Profit%20%C2%B7%20Inventory%20Dashboard&descAlign=50&descAlignY=58&descSize=16&animation=fadeIn" alt="Reliance Trends Analytics banner" />
@@ -134,4 +121,3 @@ Is Profitable?  =IF(Sales_data!AJ2=0,0,"profitable")
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:a855f7,50:7e22ce,100:1e1b4b&height=120&section=footer&text=Thanks%20for%20checking%20it%20out!&fontSize=20&fontColor=ffffff&fontAlignY=72&animation=fadeIn" width="100%" alt="footer" />
 
 </div>
-
