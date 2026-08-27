@@ -1,1 +1,124 @@
 
+<div align="center">
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1e1b4b,50:7e22ce,100:a855f7&height=200&section=header&text=Reliance%20Trends%20Analytics&fontSize=44&fontColor=ffffff&fontAlign=50&fontAlignY=36&desc=Excel%20Sales%20%C2%B7%20Profit%20%C2%B7%20Inventory%20Dashboard&descAlign=50&descAlignY=58&descSize=16&animation=fadeIn" alt="Reliance Trends Analytics banner" />
+
+<img src="https://img.shields.io/badge/Tool-Microsoft%20Excel-a855f7?style=for-the-badge&labelColor=1e1b4b" alt="Excel" />
+<img src="https://img.shields.io/badge/Type-BI%20Dashboard-7e22ce?style=for-the-badge&labelColor=1e1b4b" alt="Type" />
+<img src="https://img.shields.io/badge/Records-20K%2B%20Transactions-ec4899?style=for-the-badge&labelColor=1e1b4b" alt="Records" />
+
+</div>
+
+<img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" />
+
+## `01` &nbsp;Overview
+
+**Reliance Trends Analytics Dashboard** is an end-to-end Excel BI project built on a
+**20,560-row retail sales fact table**, modelled against four supporting dimension
+tables (Customers, Products, Stores, Inventory). It turns raw transactional data into
+an **interactive, single-screen dashboard** with charts, KPIs, and drill-downs across
+country, department, city, season and time.
+
+> Built entirely with native Excel — PivotTables, PivotCharts, formulas and slicers.
+> No Power BI, no external add-ins.
+
+<img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" />
+
+## `02` &nbsp;Key Metrics
+
+| Metric | Value |
+| :--- | :--- |
+| Total Sales | ₹594.5 Cr (`5,945,445,219`) |
+| Total Gross Profit | ₹225.2 Cr (`2,252,425,901`) |
+| Units Sold | `37,310` |
+| Transactions | `20,560` |
+| Countries Covered | 7 — India, UAE, USA, UK, Singapore, Russia, South Africa |
+| Departments | Accessories · Kidswear · Menswear · Womenswear |
+| Stores | `82` across 7 countries |
+| Customers | `4,030` |
+| Products (SKUs) | `481` |
+| Years | 2025 – 2026 |
+
+<img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" />
+
+## `03` &nbsp;Workbook Structure
+
+<table>
+<tr><th>Sheet</th><th>Rows</th><th>Purpose</th></tr>
+<tr><td><code>dashboard</code></td><td>—</td><td>Interactive summary view — 8 charts, KPI cards, country/segment breakdowns</td></tr>
+<tr><td><code>pivot tables</code></td><td>—</td><td>PivotTables: profit by country, sales by year/month, top customers, item-level sales, membership tiers, manager/store counts, city-wise profit by state</td></tr>
+<tr><td><code>sales values</code></td><td>—</td><td>Department, city, and country roll-ups; YoY profit-margin comparison</td></tr>
+<tr><td><code>Sales_data</code></td><td>20,560</td><td>Core transactional fact table — order, product, customer, store, pricing and return details (48 columns)</td></tr>
+<tr><td><code>Customers</code></td><td>4,030</td><td>Customer dimension — demographics, segment, membership tier</td></tr>
+<tr><td><code>Products</code></td><td>481</td><td>Product dimension — category, brand, size, color, material, season</td></tr>
+<tr><td><code>Stores</code></td><td>82</td><td>Store dimension — location, format, manager, region</td></tr>
+<tr><td><code>Inventory</code></td><td>4,000</td><td>Stock levels and inventory status by product/store</td></tr>
+<tr><td><code>formulas</code></td><td>17</td><td>Reference sheet mapping business questions to the exact formula used</td></tr>
+</table>
+
+<img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" />
+
+## `04` &nbsp;Dashboard Highlights
+
+- **Gross profit by country** — horizontal bar chart, India leading at ₹98.9 Cr
+- **Top 5 customers by profit** — ranked line/bar view
+- **Sales & profit by department** — Accessories, Kidswear, Menswear, Womenswear
+- **Season-wise sales** — All Season, Monsoon, Summer, Winter split by department
+- **City-wise profit** — UK & US city breakdown with grand totals
+- **Membership tier distribution** — Gold / Platinum / Silver by country
+- **Store & manager counts** — operational footprint per country
+- **YoY profit margin** — 2025 vs 2026 by country
+
+<img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" />
+
+## `05` &nbsp;Formulas Used
+
+The `formulas` sheet documents every business question against its exact Excel
+formula — a quick-reference for the logic behind the dashboard:
+
+`SUM` · `AVERAGE` · `MAX` · `MIN` · `COUNT` · `SUMIF` · `COUNTIF` · `AVERAGEIF` ·
+`SUMIFS` · `COUNTIFS` · `MAXIFS` · `MINIFS` · `IF`
+
+```text
+Total Sales     =SUM(Sales_data!AG:AG)
+India Sales     =SUMIF(Sales_data!K:K,"india",Sales_data!AG:AG)
+India Sales '26 =SUMIFS(Sales_data!AG:AG,Sales_data!D:D,"2026",Sales_data!K:K,"india")
+Is Profitable?  =IF(Sales_data!AJ2=0,0,"profitable")
+```
+
+<img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" />
+
+## `06` &nbsp;Skills Demonstrated
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/PivotTables%20%26%20PivotCharts-a855f7?style=for-the-badge&labelColor=1e1b4b" alt="PivotTables" />
+<img src="https://img.shields.io/badge/Data%20Modelling-7e22ce?style=for-the-badge&labelColor=1e1b4b" alt="Data Modelling" />
+<img src="https://img.shields.io/badge/Lookup%20%26%20Conditional%20Formulas-ec4899?style=for-the-badge&labelColor=1e1b4b" alt="Formulas" />
+<img src="https://img.shields.io/badge/Dashboard%20Design-a855f7?style=for-the-badge&labelColor=1e1b4b" alt="Dashboard Design" />
+<img src="https://img.shields.io/badge/KPI%20Reporting-7e22ce?style=for-the-badge&labelColor=1e1b4b" alt="KPI Reporting" />
+
+</div>
+
+- Relational data modelling across 1 fact table + 4 dimension tables
+- PivotTable-driven multi-angle analysis (geography, time, product, customer)
+- Conditional aggregation (`SUMIFS`/`COUNTIFS`/`MAXIFS`/`MINIFS`) for segmented KPIs
+- Single-screen dashboard layout designed for at-a-glance decision-making
+
+<img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" />
+
+## `07` &nbsp;How to Use
+
+1. Download `Reliance_Trends_Analytics_dashboard.xlsx`
+2. Open in **Excel 2016+** (PivotTables and charts are native — no add-ins required)
+3. Go to the `dashboard` sheet for the summary view
+4. Explore `pivot tables` and `sales values` for the underlying breakdowns
+5. Raw data lives in `Sales_data`, `Customers`, `Products`, `Stores`, `Inventory`
+
+<img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" />
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:a855f7,50:7e22ce,100:1e1b4b&height=120&section=footer&text=Thanks%20for%20checking%20it%20out!&fontSize=20&fontColor=ffffff&fontAlignY=72&animation=fadeIn" width="100%" alt="footer" />
+
+</div>
